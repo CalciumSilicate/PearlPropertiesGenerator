@@ -1,0 +1,11 @@
+{
+    "id": "pearl_properties_generator",
+    "version": "1.0.0",
+    "name": "Pearl Properties Generator",
+    "description": "A tool to generate pearl cannon settings for 360FTL Heavy",
+    "author": "Fallen_Breath",
+    "link": "https://github.com/Fallen-Breath/PearlCannonHelper",
+    "dependencies": {
+        "mcdreforged": ">=2.0.0"
+    }
+}
