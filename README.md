@@ -1,3 +1,5 @@
+# 以下内容由AI生成
+
 # Pearl Properties Generator
 
 一个用于 [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) 的珍珠炮配置生成器插件。
