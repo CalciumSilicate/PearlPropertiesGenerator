@@ -356,6 +356,7 @@ class TraceUI:
 
         for i in range(start_idx, end_idx):
             t = self.traces[i]
+            pos_str_raw = f"{t.position.x} {t.position.y} {t.position.z}"
             pos_str = f"({t.position.x:.4f}, {t.position.y:.4f}, {t.position.z:.4f})"
             mom_str = f"({t.momentum.x:.6f}, {t.momentum.y:.6f}, {t.momentum.z:.6f})"
             
@@ -369,7 +370,7 @@ class TraceUI:
             )
 
             row.append(
-                RTextUI.copy_button("位置", pos_str, "点击复制位置")
+                RTextUI.copy_button("位置", pos_str_raw, "点击复制位置")
             )
             row.append(RText(" "))
 
